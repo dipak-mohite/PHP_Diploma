@@ -1,0 +1,26 @@
+Definition and Usage
+The serialize() function converts a storable representation of a value.
+
+To serialize data means to convert a value to a sequence of bits, so that it can be stored in a file, a memory buffer, or transmitted across a network.
+
+Syntax
+serialize(value);
+
+
+
+Introspection in PHP:
+Introspection in PHP offers the useful ability to examine an object's characteristics, such as its name, parent class (if any) properties, classes, interfaces, and methods.
+PHP offers a large number of functions that you can use to accomplish the task.
+The following are the functions to extract basic information about classes such as their name, the name of their parent class and so on.
+
+In-built functions in PHP Introspection :
+Function	Description
+class_exists()		Checks whether a class has been defined.
+et_class()			Returns the class name of an object.
+get parent_class()		Returns the class name of a Return object's parent class.
+is_subclass_of()		Checks whether an object has a given parent class.
+get_declared_classes() 	Returns a list of all declared classes.
+get_class_methods() 	Returns the names of the class methods.
+get_class_vars()		Returns the default properties of a class
+interface_exists()		Checks whether the interface is defined.
+method_exists()		Checks whether an object defines a method.
